@@ -1,0 +1,56 @@
+
+.headerText{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+.linksMenu:hover{
+    text-decoration: underline;
+}
+.headerText{
+    margin-left: 6px;
+}
+.carousel {
+    z-index: 1;
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.row{
+    justify-content: center;
+}
+.card-title{
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.containerSecundario{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerMain{
+    height: 70vh;
+}
+.rowContacto{
+    width: 50%;
+    margin: 20px;
+}
+
+.footer{
+    background-color: #0b5ed7;
+}
+
+@media screen and (max-width: 750px){
+    .rowContacto{
+    width: 90%;
+    }
+}
+@media screen and (max-width: 500px){
+    .rowContacto{
+        width: 100%;
+        }
+}
